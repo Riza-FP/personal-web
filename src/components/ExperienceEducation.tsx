@@ -6,7 +6,7 @@ export function ExperienceEducation() {
             title: "Fullstack Developer",
             company: "PT DumbWays Indonesia Teknologi",
             period: "2025 - Present",
-            description: ""
+            description: "Hands-on experience building web applications using modern front-end and back-end technologies. Skilled in developing responsive user interfaces, creating RESTful APIs, managing databases, and collaborating in team environments using version control systems. Passionate about learning new technologies and improving software performance and user experience."
         },
         {
             title: "Video Editor",

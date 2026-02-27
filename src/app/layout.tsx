@@ -8,8 +8,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Agetha - Visual Designer Portfolio",
-  description: "Portfolio of Agetha, a visual designer specializing in UI, Product Design, and Branding.",
+  title: "Riza Fauzan Pratama",
+  description: "Portfolio of Riza Fauzan Pratama, a fullstack developer",
 };
 
 export default function RootLayout({
