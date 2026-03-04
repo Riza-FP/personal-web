@@ -1,13 +1,13 @@
 @import "tailwindcss";
 
 @theme {
-  --color-primary: #e53935;
-  --color-primary-hover: #d32f2f;
-  --color-background-dark: #111111;
-  --color-surface: #1e1e1e;
-  --color-surface-light: #2c2c2c;
-  --color-text-main: #ffffff;
-  --color-text-muted: #a0a0a0;
+  --color-primary: var(--primary);
+  --color-primary-hover: var(--primary-hover);
+  --color-background-dark: var(--background);
+  --color-surface: var(--surface);
+  --color-surface-light: var(--surface-light);
+  --color-text-main: var(--foreground);
+  --color-text-muted: var(--text-muted);
 
   --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
 }
@@ -17,8 +17,25 @@ html {
 }
 
 :root {
+  /* Light Mode Variables */
+  --background: #ffffff;
+  --foreground: #111111;
+  --surface: #f3f4f6; /* gray-100 */
+  --surface-light: #e5e7eb; /* gray-200 */
+  --primary: #e53935;
+  --primary-hover: #d32f2f;
+  --text-muted: #4b5563; /* gray-600 */
+}
+
+.dark {
+  /* Dark Mode Variables */
   --background: #111111;
   --foreground: #ffffff;
+  --surface: #1e1e1e;
+  --surface-light: #2c2c2c;
+  --primary: #e53935;
+  --primary-hover: #d32f2f;
+  --text-muted: #a0a0a0;
 }
 
 body {
@@ -26,4 +43,5 @@ body {
   color: var(--foreground);
   font-family: var(--font-sans);
   -webkit-font-smoothing: antialiased;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
