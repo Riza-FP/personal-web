@@ -90,7 +90,7 @@ export function Hero() {
                     <div className="w-full aspect-[3/4] bg-surface rounded-3xl overflow-hidden relative shadow-2xl border border-surface-light/50 group flex items-center justify-center p-8 md:p-12 transition-all duration-500 hover:shadow-primary/20 hover:border-primary/30 transform hover:-translate-y-2">
                         <div className="absolute inset-0 bg-gradient-to-t from-background/40 via-transparent to-transparent z-10 pointer-events-none transition-opacity duration-500 group-hover:opacity-60" />
                         <img
-                            src="/Riza%20Fauzan%20Pratama.jpg"
+                            src="/Riza%20Fauzan%20Pratama.png"
                             alt="Riza Fauzan Pratama"
                             className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-700"
                         />
