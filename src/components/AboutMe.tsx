@@ -19,9 +19,13 @@ export function AboutMe() {
                             I aim to develop applications that are efficient, reliable, and thoughtfully crafted from end to end.
                         </p>
                         <div className="pt-4">
-                            <button className="bg-primary hover:bg-primary-hover text-white px-8 py-3 rounded text-[11px] font-bold tracking-widest uppercase transition-colors shadow-lg shadow-primary/20 hover:-translate-y-1 transform duration-300">
+                            <a 
+                                href="/Final CV ATS Riza Fauzan Pratama - Full Stack Dev.pdf" 
+                                download="Riza_Fauzan_Pratama_CV.pdf"
+                                className="inline-block bg-primary hover:bg-primary-hover text-white px-8 py-3 rounded text-[11px] font-bold tracking-widest uppercase transition-colors shadow-lg shadow-primary/20 hover:-translate-y-1 transform duration-300"
+                            >
                                 Download Resume
-                            </button>
+                            </a>
                         </div>
                     </div>
                 </FadeIn>
